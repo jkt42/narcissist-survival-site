@@ -3,6 +3,12 @@
 <head>
   <meta charset="utf-8" />
   <title>Content Manager</title>
+  <script>
+    // Force login if not authenticated
+    if (!window.location.pathname.includes('_auth')) {
+      window.location.href = "/.auth/login/github";
+    }
+  </script>
   <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
 </head>
 <body>
