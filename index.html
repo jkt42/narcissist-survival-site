@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Narcissist Survival</title>
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; background:#0c0c0c; color:#e5e5e5; }
+    header { position:sticky; top:0; background:#0c0c0c; border-bottom:1px solid #222; padding:15px 30px; display:flex; justify-content:space-between; }
+    nav a { color:#aaa; margin-left:20px; text-decoration:none; }
+    nav a:hover { color:#fff; }
+    section { padding:60px 30px; border-bottom:1px solid #222; }
+    h1,h2,h3 { color:#fff; }
+    .hero { max-width:900px; }
+    .btn { display:inline-block; margin-top:20px; padding:10px 20px; border-radius:10px; text-decoration:none; }
+    .btn-primary { background:#fff; color:#000; }
+    .btn-secondary { border:1px solid #444; color:#fff; }
+    .grid { display:grid; gap:20px; }
+    .grid-3 { grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); }
+    .card { border:1px solid #222; padding:20px; border-radius:15px; background:#111; }
+    footer { padding:30px; text-align:center; color:#888; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <strong>Narcissist Survival</strong><br>
+    <small>narcissistsurvival.com</small>
+  </div>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#blog">Blog</a>
+    <a href="#resources">Resources</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>A clear record of survival, recovery, and rebuilding.</h1>
+  <p>I started writing things down because I needed proof of reality. What began as private notes became a record. This site turns that record into something useful.</p>
+  <a href="#blog" class="btn btn-primary">Read the journal</a>
+  <a href="#resources" class="btn btn-secondary">Explore resources</a>
+</section>
+
+<section id="about">
+  <h2>About</h2>
+  <p>This is not a generic wellness site. It is a structured record built from lived experience, pattern recognition, and recovery.</p>
+
+  <div class="grid grid-3">
+    <div class="card">
+      <h3>Journal</h3>
+      <p>Dated entries based on real notes and events.</p>
+    </div>
+    <div class="card">
+      <h3>Patterns</h3>
+      <p>Breakdowns of manipulation and behavioral patterns.</p>
+    </div>
+    <div class="card">
+      <h3>Recovery</h3>
+      <p>Tools and insights for rebuilding clarity and self-trust.</p>
+    </div>
+  </div>
+</section>
+
+<section id="blog">
+  <h2>Blog</h2>
+  <div class="grid grid-3">
+    <div class="card">
+      <h3>The Day I Realized I Was Not Losing My Mind</h3>
+      <p>A journal entry about documenting events and reclaiming clarity.</p>
+    </div>
+    <div class="card">
+      <h3>Why I Started Writing Everything Down</h3>
+      <p>How notes became a survival tool.</p>
+    </div>
+    <div class="card">
+      <h3>What Narcissistic Manipulation Looks Like</h3>
+      <p>A breakdown of gaslighting and control patterns.</p>
+    </div>
+  </div>
+</section>
+
+<section id="resources">
+  <h2>Resources</h2>
+  <div class="grid grid-3">
+    <div class="card">
+      <h3>Understanding Gaslighting</h3>
+      <p>Plain explanation of reality distortion.</p>
+    </div>
+    <div class="card">
+      <h3>Documentation Method</h3>
+      <p>How to track events and patterns clearly.</p>
+    </div>
+    <div class="card">
+      <h3>Recovery Tools</h3>
+      <p>Resources and techniques that helped rebuild stability.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>This site exists because writing things down helped me hold on to reality.</h2>
+  <p>What started as survival became clarity. What became clarity is now something useful for others.</p>
+</section>
+
+<footer>
+  © 2026 Narcissist Survival
+</footer>
+
+</body>
+</html>
