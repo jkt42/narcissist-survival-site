@@ -135,5 +135,45 @@ footer {
   © 2026 Narcissist Survival
 </footer>
 
+</footer>
+
+<script>
+async function loadPosts() {
+  const posts = [
+    "2023-08-14-my-first-post.md"
+  ];
+
+  const container = document.querySelector(".container");
+
+  for (let file of posts) {
+    const res = await fetch("/posts/" + file);
+    const text = await res.text();
+
+    const titleMatch = text.match(/title:\s*(.*)/);
+    const dateMatch = text.match(/date:\s*(.*)/);
+
+    const title = titleMatch ? titleMatch[1] : "Untitled";
+    const date = dateMatch ? dateMatch[1] : "";
+
+    const content = text.split("---")[2] || "";
+    const preview = content.trim().substring(0, 150);
+
+    const div = document.createElement("div");
+    div.className = "post";
+
+    div.innerHTML = `
+      <h2>${title}</h2>
+      <div class="meta">${date}</div>
+      <p>${preview}...</p>
+      <a href="post.html?file=${file}" class="read-more">Read more →</a>
+    `;
+
+    container.appendChild(div);
+  }
+}
+
+loadPosts();
+</script>
+
 </body>
 </html>
