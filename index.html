@@ -1,108 +1,135 @@
-<!-- deploy trigger -->
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Narcissist Survival</title>
-  <style>
-    body { margin:0; font-family: Arial, sans-serif; background:#0c0c0c; color:#e5e5e5; }
-    header { position:sticky; top:0; background:#0c0c0c; border-bottom:1px solid #222; padding:15px 30px; display:flex; justify-content:space-between; }
-    nav a { color:#aaa; margin-left:20px; text-decoration:none; }
-    nav a:hover { color:#fff; }
-    section { padding:60px 30px; border-bottom:1px solid #222; }
-    h1,h2,h3 { color:#fff; }
-    .hero { max-width:900px; }
-    .btn { display:inline-block; margin-top:20px; padding:10px 20px; border-radius:10px; text-decoration:none; }
-    .btn-primary { background:#fff; color:#000; }
-    .btn-secondary { border:1px solid #444; color:#fff; }
-    .grid { display:grid; gap:20px; }
-    .grid-3 { grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); }
-    .card { border:1px solid #222; padding:20px; border-radius:15px; background:#111; }
-    footer { padding:30px; text-align:center; color:#888; }
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Narcissist Survival</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  background: #ffffff;
+  color: #1a1a1a;
+}
+
+header {
+  border-bottom: 1px solid #e6e6e6;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #555;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+.container {
+  max-width: 720px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.post {
+  margin-bottom: 60px;
+}
+
+.post h2 {
+  font-size: 32px;
+  line-height: 1.3;
+  margin-bottom: 10px;
+}
+
+.post .meta {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.post p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.read-more {
+  font-size: 14px;
+  text-decoration: none;
+  color: #1a8917;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+footer {
+  border-top: 1px solid #e6e6e6;
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 14px;
+  color: #777;
+}
+</style>
 </head>
+
 <body>
 
 <header>
-  <div>
-    <strong>Narcissist Survival</strong><br>
-    <small>narcissistsurvival.com</small>
-  </div>
+  <h1>Narcissist Survival</h1>
   <nav>
-    <a href="#about">About</a>
-    <a href="#blog">Blog</a>
-    <a href="#resources">Resources</a>
+    <a href="#">Home</a>
+    <a href="#">Blog</a>
+    <a href="#">About</a>
   </nav>
 </header>
 
-<section class="hero">
-  <h1>A clear record of survival, recovery, and rebuilding.</h1>
-  <p>I started writing things down because I needed proof of reality. What began as private notes became a record. This site turns that record into something useful.</p>
-  <a href="#blog" class="btn btn-primary">Read the journal</a>
-  <a href="#resources" class="btn btn-secondary">Explore resources</a>
-</section>
+<div class="container">
 
-<section id="about">
-  <h2>About</h2>
-  <p>This is not a generic wellness site. It is a structured record built from lived experience, pattern recognition, and recovery.</p>
-
-  <div class="grid grid-3">
-    <div class="card">
-      <h3>Journal</h3>
-      <p>Dated entries based on real notes and events.</p>
-    </div>
-    <div class="card">
-      <h3>Patterns</h3>
-      <p>Breakdowns of manipulation and behavioral patterns.</p>
-    </div>
-    <div class="card">
-      <h3>Recovery</h3>
-      <p>Tools and insights for rebuilding clarity and self-trust.</p>
-    </div>
+  <div class="post">
+    <h2>The Day I Realized I Was Not Losing My Mind</h2>
+    <div class="meta">March 28, 2026 · 5 min read</div>
+    <p>
+      I started writing things down because I needed proof of reality. Not feelings — facts. Dates. Conversations. What was said versus what was later denied. Over time, a pattern emerged.
+    </p>
+    <p>
+      The confusion wasn’t random. It was structured. Repeated. Predictable. And once I could see it written out, I realized something important — I wasn’t losing my mind. Something was being done to it.
+    </p>
+    <a href="#" class="read-more">Read more →</a>
   </div>
-</section>
 
-<section id="blog">
-  <h2>Blog</h2>
-  <div class="grid grid-3">
-    <div class="card">
-      <h3>The Day I Realized I Was Not Losing My Mind</h3>
-      <p>A journal entry about documenting events and reclaiming clarity.</p>
-    </div>
-    <div class="card">
-      <h3>Why I Started Writing Everything Down</h3>
-      <p>How notes became a survival tool.</p>
-    </div>
-    <div class="card">
-      <h3>What Narcissistic Manipulation Looks Like</h3>
-      <p>A breakdown of gaslighting and control patterns.</p>
-    </div>
+  <div class="post">
+    <h2>Why I Started Writing Everything Down</h2>
+    <div class="meta">March 25, 2026 · 4 min read</div>
+    <p>
+      Notes became my anchor. When memory gets challenged constantly, documentation becomes survival. I wasn’t journaling for reflection — I was recording evidence.
+    </p>
+    <a href="#" class="read-more">Read more →</a>
   </div>
-</section>
 
-<section id="resources">
-  <h2>Resources</h2>
-  <div class="grid grid-3">
-    <div class="card">
-      <h3>Understanding Gaslighting</h3>
-      <p>Plain explanation of reality distortion.</p>
-    </div>
-    <div class="card">
-      <h3>Documentation Method</h3>
-      <p>How to track events and patterns clearly.</p>
-    </div>
-    <div class="card">
-      <h3>Recovery Tools</h3>
-      <p>Resources and techniques that helped rebuild stability.</p>
-    </div>
+  <div class="post">
+    <h2>What Narcissistic Manipulation Actually Looks Like</h2>
+    <div class="meta">March 22, 2026 · 6 min read</div>
+    <p>
+      It doesn’t always look dramatic. It looks like small contradictions. Subtle rewrites of reality. Shifts in tone. Over time, those small shifts accumulate until your sense of truth feels unstable.
+    </p>
+    <a href="#" class="read-more">Read more →</a>
   </div>
-</section>
 
-<section>
-  <h2>This site exists because writing things down helped me hold on to reality.</h2>
-  <p>What started as survival became clarity. What became clarity is now something useful for others.</p>
-</section>
+</div>
 
 <footer>
   © 2026 Narcissist Survival
